@@ -1,7 +1,7 @@
 <?php
 include 'SimpleIterator.php';
 
-$filePath = '../data.csv';
+$filePath = 'data.csv';
 $iterator = new SimpleIterator($filePath);
 
 foreach ($iterator as $key => $row) {

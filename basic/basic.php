@@ -1,6 +1,6 @@
 <?php
 
-$file = file('../data.csv');
+$file = file('data.csv');
 $csvArray = array_map('str_getcsv', $file);
 
 if (

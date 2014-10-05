@@ -1,8 +1,8 @@
 <?php
-include './CsvFileIterator.php';
-include './FilterCsvFileIterator.php';
+include 'CsvFileIterator.php';
+include 'FilterCsvFileIterator.php';
 
-$filePath = '../data.csv';
+$filePath = 'data.csv';
 $requiredFields = array(
 	'id',
 	'name',
